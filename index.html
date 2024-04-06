@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="navlogo">
+                </div>
+                <div class="navcontent">
+                    <div class="navhome a border">
+                        <i class="fa-solid fa-house"></i>
+                        <p><b>Home</b></p>
+                    </div>
+                    <div class="navsearch a border">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p id="searchBtn"><b>search</b></p>
+                    </div>
+                    <div class="navexplore a border">
+                        <i class="fa-solid fa-message"></i>
+                        <p><b>explore</b></p>
+                    </div>
+                    <div class="navmessage a border">
+                        <i class="fa-solid fa-message"></i>
+                        <p id="messageBtn"><b>Message</b></p>
+                    </div>
+                    <div class="navprofile a border">
+                        <i class="fa-solid fa-user"></i>
+                        <p><b>profile</b></p>
+                    </div>
+                    <div class="navnotification a border">
+                        <i class="fa-solid fa-heart"></i>
+                        <p><b>notification</b></p>
+                    </div>
+                    <div class="navmore a border">
+                       <i class="fa-solid fa-bars"></i>
+                       <p><b>navMore </b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.getElementById('searchBtn').addEventListener('click', function() {
+                var searchTerm = prompt('Enter your search term:');
+                if (searchTerm !== null) {
+                    alert('You searched for: ' + searchTerm);
+                    // Implement your search logic here
+                }
+            });
+        </script>
+        <div class="maincontent">
+            
+            <div class="header">
+                <div class="card1 ">
+                    <div class="img1 card"></div>
+                    <a class="headername" href="https://www.youtube.com/results?search_query=sandeep+maheshwari">sandeep maheshwari</a>
+                </div>
+                <div class="card2 ">
+                    <div class="img2 card"></div>
+                    <a class="headername" href="https://www.youtube.com/results?search_query=ranveer+allahbadia">ranveer allahbadia</a>
+                </div>
+                <div class="card3 ">
+                    <div class="img3 card"></div>
+                    <a class="headername" href="https://www.youtube.com/results?search_query=vivek+bindra">vivek bindra</a>
+                </div>
+                <div class="card4 ">
+                    <div class="img4 card"></div>
+                    <a class="headername" href="https://www.youtube.com/results?search_query=jaya+kishori">jaya kishori</a>
+                </div>
+                <div class="card5">
+                    <div class="img5 card"></div>
+                   <a class="headername" href="https://www.youtube.com/results?search_query=deepak+chopra">deepak chopra</a>
+                </div>
+            </div>
+
+            <h2>Education</h2>
+            <div class="cardscontainer">
+                <div class="cardd">
+                    <img class="cardimg" src="formal.jpg">
+                    <div class="cardtitle">formal education </div>
+                    <div class="info">Subjects and Disciplines: Different subjects and disciplines are taught at various levels, </div>
+                </div>
+                <div class="cardd">
+                    <img class="cardimg " src="skills.jpg">
+                    <div class="cardtitle">Skills Development:</div>
+                    <div class="info">Communication, teamwork, adaptability, and other interpersonal skills</div>
+                </div>
+                <div class="cardd">
+                    <img class="cardimg" src="education.jpg">
+                    <div class="cardtitle">Educational Technologies:</div>
+                    <div class="info">e-learning: Online courses and resources that allow for flexible and remote learning.</div>
+                </div>
+                <div class="cardd">
+                    <img class="cardimg" src="assignmentevaluation.jpg">
+                    <div class="cardtitle">Assessment and Evaluation:</div>
+                    <div class="info">Different grading systems are used worldwide to evaluate student performance.</div>
+                </div>
+            </div>
+            <h2>travel and exploration</h2>
+            <div class="cardscontainer">
+                <div class="cardd">
+                    <img class="cardimg" src="travel.jpg">
+                    <div class="cardtitle">travel and tourism</div>
+                    <div class="info">Travel provides opportunities for people to experience and learn about different cultures. </div>
+                </div>
+                <div class="cardd">
+                    <img class="cardimg " src="traveli.jpg">
+                    <div class="cardtitle">Challenges and Concerns:</div>
+                    <div class="info"> Mass tourism can have negative effects on the environment, contributing to pollution, habitat destruction</div>
+                </div>
+                <div class="cardd">
+                    <img class="cardimg" src="adventure-tours.jpg">
+                    <div class="cardtitle">Adventure Travel:</div>
+                    <div class="info"> individuals seek unique and challenging experiences, such as trekking, mountain climbing, or exploring  </div>
+                </div>
+                <div class="cardd">
+                    <img class="cardimg" src="virtual.jpg">
+                    <div class="cardtitle">Virtual Exploration:</div>
+                    <div class="info">Technology allows people to explore new places virtually, providing a different kind of travel experience without physically being present.</div>
+                </div>
+                <h2>Explore your passion</h2>
+                <div class="cardscontainer">
+                    <div class="cardd">
+                        <img class="cardimg" src="goals.jpg">
+                        <div class="cardtitle">Settings goals</div>
+                        <div class="info">Define clear goals related to your passion, whether they are short-term or long-term objectives. </div>
+                    </div>
+                    <div class="cardd">
+                        <img class="cardimg " src="celebrating.jpg">
+                        <div class="cardtitle">Celebrating Achievements:</div>
+                        <div class="info">Acknowledge and celebrate your achievements and milestones along the way.</div>
+                    </div>
+                    <div class="cardd">
+                        <img class="cardimg" src="linked.jpg">
+                        <div class="cardtitle">conection-via-liked-minded</div>
+                        <div class="info">Connect with people who can provide support, inspiration, and valuable insights.</div>
+                    </div>
+                    <div class="cardd">
+                        <img class="cardimg" src="learning.jpg">
+                        <div class="cardtitle">Learning and Growing:</div>
+                        <div class="info">Approach your passion with a growth mindset, recognizing that there is always room for improvement.</div>
+                    </div>
+                </div>
+                <h2>BOOKS for beginner!!!</h2>
+                <div class="cardscontainer">
+                    <div class="cardd">
+                        <img class="cardimg" src="i.jpg">
+                        <div class="cardtitle">Sels help books</div>
+                        <div class="info">Ikigai,one of the best reads!!! and get suggestion from one of the best readers </div>
+                    </div>
+                    <div class="cardd">
+                        <img class="cardimg " src="h.jpg">
+                        <div class="cardtitle">want to get lost in fantasy</div>
+                        <div class="info"> harry potter is what everyone has read ,let finds some other fantasy</div>
+                    </div>
+                    <div class="cardd">
+                        <img class="cardimg" src="quiet.jpg">
+                        <div class="cardtitle">books speciallly for introverts</div>
+                        <div class="info">biggest problem is "how to talk to people",and this is what exactly you should do </div>
+                    </div>
+                    <div class="cardd">
+                        <img class="cardimg" src="m.jpg">
+                        <div class="cardtitle">this is how money works</div>
+                        <div class="info">let find the phsycology of money...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="idex.js"></script>
+</body>
+</html>
